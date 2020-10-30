@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div class="displayContainer"></div>
+    <div class="boardContainer">
+        <div class="square" id="0" onclick="move(event)"></div>
+        <div class="square" id="1" onclick="move(event)"></div>
+        <div class="square" id="2" onclick="move(event)"></div>
+        <div class="square" id="3" onclick="move(event)"></div>
+        <div class="square" id="4" onclick="move(event)"></div>
+        <div class="square" id="5" onclick="move(event)"></div>
+        <div class="square" id="6" onclick="move(event)"></div>
+        <div class="square" id="7" onclick="move(event)"></div>
+        <div class="square" id="8" onclick="move(event)"></div>
+    </div>
+    <div class="ai">
+        <input type="radio" id="ai" name="opponent" value="ai">
+        <label for="ai">Play against the computer</label>
+    </div>
+    <div class=friend>
+        <input type="radio" id="friend" name="opponent" value="friend">
+        <label for="friend">Play against a friend</label>
+    </div>
+    <div class="buttonContainer">
+        <button id="start" onclick="buttonAction()"><b>START</b></button>
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
